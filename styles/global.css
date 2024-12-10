@@ -18,4 +18,31 @@
   --principal-green: #82BC4F;
   --principal-yellow: #EABD5F;
 
+ --font-family-asap: "Asap", serif;
+ --title-lg: 700 56px/120% var(--font-family-asap);
+ --title-md: 700 24px/120% var(--font-family-asap);
+ --title-sm: 700 16px/120% var(--font-family-asap);
+
+ --font-family-inconsolata: "Inconsolata", serif;
+ --subtitle: 400 20px/120% var(--font-family-inconsolata);
+ 
+--font-family-mavenpro: "Maven Pro", serif;
+--text-md: 400 16px/140% var(--font-family-mavenpro);
+--text-sm: 400 14px/140% var(--font-family-mavenpro);
+}
+
+body {
+  background-color: var(--base-gray-200);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../assets/images/Background_Intro.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
