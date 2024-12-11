@@ -5,43 +5,46 @@
 }
 
 :root {
-  --base-gray-100: #0D0E11;
-  --base-gray-200: #16181D;
-  --base-gray-300: #292C34;
-  --base-gray-400: #878EA1;
-  --base-gray-500: #C0C4CE;
-  --base-gray-600: #E2E4E9;
- 
-  --principal-red: #E3646E;
-  --principal-purple: #BB72E9;
-  --principal-blue: #3996DB;
-  --principal-green: #82BC4F;
-  --principal-yellow: #EABD5F;
+  --base-gray-100: #0d0e11;
+  --base-gray-200: #16181d;
+  --base-gray-300: #292c34;
+  --base-gray-400: #878ea1;
+  --base-gray-500: #c0c4ce;
+  --base-gray-600: #e2e4e9;
 
- --font-family-asap: "Asap", serif;
- --title-lg: 700 56px/120% var(--font-family-asap);
- --title-md: 700 24px/120% var(--font-family-asap);
- --title-sm: 700 16px/120% var(--font-family-asap);
+  --principal-red: #e3646e;
+  --principal-purple: #bb72e9;
+  --principal-blue: #3996db;
+  --principal-green: #82bc4f;
+  --principal-yellow: #eabd5f;
 
- --font-family-inconsolata: "Inconsolata", serif;
- --subtitle: 400 20px/120% var(--font-family-inconsolata);
- 
---font-family-mavenpro: "Maven Pro", serif;
---text-md: 400 16px/140% var(--font-family-mavenpro);
---text-sm: 400 14px/140% var(--font-family-mavenpro);
+  --font-family-asap: "Asap", serif;
+  --title-lg: 700 56px/120% var(--font-family-asap);
+  --title-md: 700 24px/120% var(--font-family-asap);
+  --title-sm: 700 16px/120% var(--font-family-asap);
+
+  --font-family-inconsolata: "Inconsolata", serif;
+  --subtitle: 400 20px/120% var(--font-family-inconsolata);
+
+  --font-family-mavenpro: "Maven Pro", serif;
+  --text-md: 400 16px/140% var(--font-family-mavenpro);
+  --text-sm: 400 14px/140% var(--font-family-mavenpro);
 }
 
 body {
   background-color: var(--base-gray-200);
 }
 
-main {
+header {
+  min-height: 100vh;
+  padding-top: 72px;
+
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   background-image: url(../assets/images/Background_Intro.png);
-  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

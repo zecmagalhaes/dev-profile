@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.title-lg {
+  font: var(--title-lg);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.text-sm {
+  font: var(--text-sm)
+}
+
+.text-md {
+  font: var(--text-md);
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
