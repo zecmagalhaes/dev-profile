@@ -22,6 +22,14 @@
   font: var(--text-md);
 }
 
+.title-md {
+  font: var(--title-md);
+}
+
+.title-sm {
+  font: var(--title-sm);
+}
+
 .gap-8 {
   gap: 8px;
 }
@@ -29,3 +37,12 @@
 .gap-16 {
   gap: 16px;
 }
+
+.gray-600 {
+  color: var(--base-gray-600);
+}
+
+.gray-500 {
+  color: var(--base-gray-500);
+}
+
