@@ -1,0 +1,42 @@
+.title-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  h2 {
+    color: var(--principal-purple);
+  }
+
+  h3 {
+    color: var(--base-gray-600);
+  }
+
+  h4 {
+    color: var(--base-gray-500);
+  }
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--base-gray-300);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 420px;
+}
+
+.contacts-container {
+  margin-top: 48px;
+  display: grid;
+
+  gap: 16px;
+}
+
+.space-contacts {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

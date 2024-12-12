@@ -25,12 +25,9 @@ section {
 }
 
 .skills {
+  border: solid 2px var(--base-gray-200);
   padding: 12px;
   border-radius: 12px;
-
-  a {
-    text-decoration: none;
-  }
 
   p:nth-child(odd) {
     margin-top: 8px;
