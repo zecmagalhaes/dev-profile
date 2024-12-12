@@ -1,11 +1,14 @@
-main {
-  /* height: 100vh; */
-  max-width: 1040px;
-  margin: auto;
-  margin-bottom: 144px;
+section {
+  background-color: var(--base-gray-100);
 }
 
-.title-main {
+.container-section {
+  margin: auto;
+  max-width: 888px;
+  padding: 88px 0 120px 0;
+}
+
+.title-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,18 +24,12 @@ main {
   }
 }
 
-.projects {
-  background-color: var(--base-gray-300);
+.skills {
   padding: 12px;
   border-radius: 12px;
 
   a {
-  text-decoration:  none;
-}
-
-  img {
-   width: 100%;
-   border-radius: 8px;
+    text-decoration: none;
   }
 
   p:nth-child(odd) {
@@ -45,13 +42,9 @@ main {
   }
 }
 
-.projects-container {
+.skills-container {
   margin-top: 56px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 24px;
-}
-
-a {
-  text-decoration:  none;
 }
