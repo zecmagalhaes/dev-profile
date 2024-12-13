@@ -6,24 +6,49 @@
   grid-auto-flow: column;
 }
 
+.text-align {
+  text-align: center;
+}
+
 .title-lg {
   font: var(--title-lg);
+
+  @media (max-width: 766px) {
+    font-size: 2.5rem;
+  }
+
+  @media (max-width: 431px) {
+    font-size: 1.5rem;
+  }
 }
 
 .subtitle {
   font: var(--subtitle);
+
+  @media (max-width: 431px) {
+    font-size: 1rem;
+  }
 }
 
 .text-sm {
-  font: var(--text-sm)
+  font: var(--text-sm);
+  max-width: 50rem;
 }
 
 .text-md {
   font: var(--text-md);
+
+  @media (max-width: 430px) {
+    font-size: 1.5rem;
+  }
 }
 
 .title-md {
   font: var(--title-md);
+
+  @media (max-width: 766px) {
+    font-size: 1.25rem;
+  }
 }
 
 .title-sm {
@@ -31,11 +56,11 @@
 }
 
 .gap-8 {
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .gap-16 {
-  gap: 16px;
+  gap: 1rem;
 }
 
 .gray-600 {

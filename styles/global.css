@@ -19,16 +19,16 @@
   --principal-yellow: #eabd5f;
 
   --font-family-asap: "Asap", serif;
-  --title-lg: 700 56px/120% var(--font-family-asap);
-  --title-md: 700 24px/120% var(--font-family-asap);
-  --title-sm: 700 16px/120% var(--font-family-asap);
+  --title-lg: 700 3.5rem/120% var(--font-family-asap);
+  --title-md: 700 1.5rem/120% var(--font-family-asap);
+  --title-sm: 700 1rem/120% var(--font-family-asap);
 
   --font-family-inconsolata: "Inconsolata", serif;
-  --subtitle: 400 20px/120% var(--font-family-inconsolata);
+  --subtitle: 400 1.25rem/120% var(--font-family-inconsolata);
 
   --font-family-mavenpro: "Maven Pro", serif;
-  --text-md: 400 16px/140% var(--font-family-mavenpro);
-  --text-sm: 400 14px/140% var(--font-family-mavenpro);
+  --text-md: 400 1rem/140% var(--font-family-mavenpro);
+  --text-sm: 400 0.875rem/140% var(--font-family-mavenpro);
 }
 
 body {
@@ -36,8 +36,8 @@ body {
 }
 
 header {
-  min-height: 100vh;
-  padding-top: 72px;
+  min-height: fit-content;
+  padding: 4.5rem 1.5rem;
 
   display: flex;
   flex-direction: column;
@@ -51,7 +51,8 @@ header {
 }
 
 footer {
-  min-height: 100vh;
+  min-height: fit-content;
+  padding: 4.5rem 1.5rem;
 
   display: flex;
   flex-direction: column;

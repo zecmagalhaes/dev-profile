@@ -1,12 +1,12 @@
 .image-profile {
-  width: 96px;
-  height: 96px;
+  width: 6rem;
+  height: 6rem;
   border-radius: 100%;
-  border: 2px solid var(--principal-red);
-  padding: 4.36px;
+  border: 0.125rem solid var(--principal-red);
+  padding: 0.2725rem;
   margin-inline: auto;
   margin-top: 0.5rem;
-  margin-bottom: 56px;
+  margin-bottom: 3.5rem;
 
   img {
     width: 100%;
@@ -16,8 +16,8 @@
 
 #secondary {
   color: var(--base-gray-600);
-  margin-top: 8px;
-  margin-bottom: 20px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.25rem;
 }
 
 #primary {
@@ -30,15 +30,22 @@
 
 #about {
   color: var(--base-gray-400);
-  margin-bottom: 64px;
+  margin-bottom: 4rem;
 }
 
 .buttons-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 56px;
-  margin-bottom: 72px;
+  gap: 3.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .button-container button {
@@ -49,11 +56,11 @@
   display: flex;
   align-items: center;
   border: none;
-  border-radius: 25px;
-  padding: 8px 16px;
+  border-radius: 1.5625rem;
+  padding: 0.5rem 1rem;
 
   img {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }
