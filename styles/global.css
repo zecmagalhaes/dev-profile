@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --base-gray-100: #0d0e11;
   --base-gray-200: #16181d;
@@ -38,11 +42,6 @@ body {
 header {
   min-height: fit-content;
   padding: 4.5rem 1.5rem;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
   background-image: url(../assets/images/Background_Intro.png);
   background-repeat: no-repeat;

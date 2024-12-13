@@ -38,8 +38,8 @@
 .text-md {
   font: var(--text-md);
 
-  @media (max-width: 430px) {
-    font-size: 1.5rem;
+  @media (max-width: 450px) {
+    font-size: 0.9rem;
   }
 }
 

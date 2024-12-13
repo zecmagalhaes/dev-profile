@@ -1,3 +1,22 @@
+#iconefdp {
+  span {
+    margin: 0 auto;
+    display: block;
+    background-image: url(../assets/icons/ArrowDoubleDown.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: background-image 0.5s ease-in-out;
+
+    width: 24px;
+    height: 24px;
+  }
+
+  &:hover span {
+    background-image: url(../assets/icons/ArrowDoubleDownHover.svg);
+  }
+}
+
 .image-profile {
   width: 6rem;
   height: 6rem;
@@ -37,8 +56,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3.5rem;
-  margin-bottom: 4.5rem;
+  gap: 8rem;
+  margin-bottom: 2.5rem;
 }
 
 .button-container {
@@ -46,6 +65,7 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 16px;
 }
 
 .button-container button {

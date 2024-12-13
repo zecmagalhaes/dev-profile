@@ -2,7 +2,7 @@ main {
   max-width: 65rem;
   margin: auto;
   margin-bottom: 4rem;
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 .title-main {
@@ -27,12 +27,12 @@ main {
   border-radius: 0.75rem;
 
   a {
-  text-decoration:  none;
-}
+    text-decoration: none;
+  }
 
   img {
-   width: 100%;
-   border-radius: 0.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
   }
 
   p:nth-child(odd) {
@@ -53,5 +53,5 @@ main {
 }
 
 a {
-  text-decoration:  none;
+  text-decoration: none;
 }
