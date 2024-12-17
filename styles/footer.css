@@ -40,3 +40,107 @@
   align-items: center;
   gap: 0.75rem;
 }
+
+.instagram {
+  &:hover {
+    box-shadow: -10px 0 10px #f09433, -5px 0 10px #e6683c, 0 0 10px #dc2743,
+      5px 0 10px #cc2366, 10px 0 10px #805ad5;
+    scale: 1.02;
+  }
+}
+
+.insta-footer {
+  background-image: url(../assets/icons/InstagramLogo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 28px;
+  height: 28px;
+  transition: background-image 0.4s ease-in-out, scale ease-in 0.4s;
+}
+
+#insta-footer-id {
+  &:hover {
+    .insta-footer {
+      background-image: url(../assets/icons/InstagramGradient.svg);
+    }
+  }
+}
+
+.linkedin {
+  &:hover {
+    box-shadow: -10px 0 10px #0077b5, -5px 0 10px #0088cc, 0 0 10px #0099e0,
+      5px 0 10px #00aaff, 10px 0 10px #add8e6;
+    scale: 1.02;
+  }
+}
+
+.linkedin-footer {
+  background-image: url(../assets/icons/LinkedinLogo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 28px;
+  height: 28px;
+  transition: background-image 0.4s ease-in-out, scale ease-in 0.4s;
+}
+
+#linkedin-footer-id {
+  &:hover {
+    .linkedin-footer {
+      background-image: url(../assets/icons/LinkedinLogoColor.svg);
+    }
+  }
+}
+
+.github-footer {
+  &:hover {
+    box-shadow: -10px 0 10px #4b2480, -5px 0 10px #6f42c1, 0 0 10px #8660c9,
+      5px 0 10px #9d7edc, 10px 0 10px #b49ce5;
+    scale: 1.02;
+  }
+}
+
+.github-footer-colored {
+  background-image: url(../assets/icons/GithubLogo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 28px;
+  height: 28px;
+  transition: background-image 0.4s ease-in-out, scale ease-in 0.4s;
+}
+
+#github-footer-id {
+  &:hover {
+    .github-footer-colored {
+      background-image: url(../assets/icons/GithubLogoColored.svg);
+    }
+  }
+}
+
+.gmail {
+  &:hover {
+    box-shadow: -10px 0 10px #ea4335, -5px 0 10px #1e88e5, 0 0 10px #43a047,
+      5px 0 10px #fbbc05, 10px 0 10px #fce8b2;
+    scale: 1.02;
+  }
+}
+
+.gmail-footer {
+  background-image: url(../assets/icons/EnvelopeSimple.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 28px;
+  height: 28px;
+  transition: background-image 0.4s ease-in-out, scale ease-in 0.4s;
+}
+
+#gmail-footer-id {
+  &:hover {
+    .gmail-footer {
+      background-image: url(../assets/icons/EnvelopeSimpleColored.svg);
+    }
+  }
+}
