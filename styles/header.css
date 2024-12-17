@@ -1,4 +1,4 @@
-#iconefdp {
+#iconeflag {
   span {
     margin: 0 auto;
     display: block;
@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    transition: background-image 0.5s ease-in-out;
+    transition: background-image 0.3s ease-in-out, scale ease-in 0.3s;
 
     width: 24px;
     height: 24px;
@@ -14,6 +14,7 @@
 
   &:hover span {
     background-image: url(../assets/icons/ArrowDoubleDownHover.svg);
+    scale: 1.1;
   }
 }
 
@@ -82,5 +83,61 @@
   img {
     width: 1.5rem;
     height: 1.5rem;
+  }
+}
+
+.gitpurple {
+  background-image: url(../assets/icons/GitHub.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  transition: background-image 0.3s ease-in-out, scale ease-in 0.3s;
+}
+
+#github {
+  &:hover {
+    color: #6f42c1;
+    box-shadow: 0 0 10px #6f42c1;
+
+    .gitpurple {
+      background-image: url(../assets/icons/GitHubPurple.svg);
+    }
+  }
+}
+
+#html {
+  &:hover {
+    color: var(--principal-red);
+    box-shadow: 0 0 10px var(--principal-red);
+  }
+}
+
+#css {
+  &:hover {
+    color: #3996db;
+    box-shadow: 0 0 10px #3996db;
+  }
+}
+
+#javascript {
+  &:hover {
+    color: #eabd5f;
+    box-shadow: 0 0 10px #eabd5f;
+  }
+}
+
+#react {
+  &:hover {
+    color: #3996db;
+    box-shadow: 0 0 10px #3996db;
+  }
+}
+
+#node {
+  &:hover {
+    color: var(--principal-green);
+    box-shadow: 0 0 10px var(--principal-green);
   }
 }

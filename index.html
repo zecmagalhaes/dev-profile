@@ -45,33 +45,33 @@
 
       <div class="buttons-container">
         <div class="button-container">
-          <button class="gap-8">
-            <img src="assets/icons/GitHub.svg" alt="Ícone GitHub" />
+          <button id="github" class="gap-8 common">
+            <span class="gitpurple"></span>
             <span text-md>GitHub</span>
           </button>
-          <button class="gap-8">
+          <button id="html" class="gap-8 common">
             <img src="assets/icons/HTML.svg" alt="Ícone HTML5" />
             <span text-md>HTML</span>
           </button>
-          <button class="gap-8">
+          <button id="css" class="gap-8 common">
             <img src="assets/icons/CSS.svg" alt="Ícone CSS" />
             <span text-md>CSS</span>
           </button>
-          <button class="gap-8">
+          <button id="javascript" class="gap-8 common">
             <img src="assets/icons/JavaScript.svg" alt="Ícone JavaScript" />
             <span text-md>JavaScript</span>
           </button>
-          <button class="gap-8">
+          <button id="react" class="gap-8 common">
             <img src="assets/icons/React.svg" alt="Ícone React" />
             <span text-md>React</span>
           </button>
-          <button class="gap-8">
+          <button id="node" class="gap-8 common">
             <img src="assets/icons/Node.js.svg" alt="Ícone Node" />
             <span text-md>Node.Js</span>
           </button>
         </div>
       </div>
-      <a id="iconefdp" href="#main-projects">
+      <a id="iconeflag" href="#main-projects">
         <span></span>
       </a>
     </header>
@@ -83,7 +83,20 @@
       </div>
 
       <div class="projects-container">
-        <div class="projects">
+        <div class="projects scale-yellow">
+          <a href="https://zecmagalhaes.github.io/recipe-page/" target="_blank">
+            <img
+              src="assets/images/Thumbnail_Project-03.png"
+              alt="Projeto Cupcakes"
+            />
+            <p class="title-sm gray-600 text-decoration">Página de Receita</p>
+            <p class="text-sm gray-500 text-decoration">
+              Página com o passo a passo de uma receita <br />
+              para cupcakes
+            </p>
+          </a>
+        </div>
+        <div class="projects scale-red">
           <a
             href="https://zecmagalhaes.github.io/project-travelgram/"
             target="_blank"
@@ -99,7 +112,7 @@
             </p>
           </a>
         </div>
-        <div class="projects">
+        <div class="projects scale-blue">
           <a href="https://zecmagalhaes.github.io/portal-news/" target="_blank">
             <img
               src="assets/images/Thumbnail_Project-02.png"
@@ -109,19 +122,6 @@
             <p class="text-sm gray-500">
               Homepage de um portal de notícias sobre a <br />
               área de tecnologia
-            </p>
-          </a>
-        </div>
-        <div class="projects">
-          <a href="https://zecmagalhaes.github.io/recipe-page/" target="_blank">
-            <img
-              src="assets/images/Thumbnail_Project-03.png"
-              alt="Projeto Cupcakes"
-            />
-            <p class="title-sm gray-600 text-decoration">Página de Receita</p>
-            <p class="text-sm gray-500 text-decoration">
-              Página com o passo a passo de uma receita <br />
-              para cupcakes
             </p>
           </a>
         </div>
@@ -172,57 +172,52 @@
 
         <div class="contacts-container">
           <a
+            id="linkedin-footer-id"
             href="https://www.linkedin.com/in/magalhaes-ezequiel/"
-            class="contacts"
+            class="contacts linkedin common-footer"
             target="_blank"
           >
             <div class="space-contacts">
-              <img
-                src="assets/icons/LinkedinLogo.svg"
-                alt="Ícone do Linkedin"
-              />
+              <span class="linkedin-footer"></span>
               <p class="text-md gray-600">Linkedin</p>
             </div>
             <img src="assets/icons/ArrowUpRight.svg" alt="Ícone de Seta" />
           </a>
 
           <a
+            id="insta-footer-id"
             href="https://www.instagram.com/magalhaes.zec/"
-            class="contacts"
+            class="contacts instagram common-footer"
             target="_blank"
           >
             <div class="space-contacts">
-              <img
-                src="assets/icons/InstagramLogo.svg"
-                alt="Ícone do Instagram"
-              />
+              <span class="insta-footer"></span>
               <p class="text-md gray-600">Instagram</p>
             </div>
             <img src="assets/icons/ArrowUpRight.svg" alt="Ícone de Seta" />
           </a>
 
           <a
+            id="github-footer-id"
             href="https://github.com/zecmagalhaes"
-            class="contacts"
+            class="contacts github-footer common-footer"
             target="_blank"
           >
             <div class="space-contacts">
-              <img src="assets/icons/GithubLogo.svg" alt="Ícone do GitHub" />
+              <span class="github-footer-colored"></span>
               <p class="text-md gray-600 text-decoration">GitHub</p>
             </div>
             <img src="assets/icons/ArrowUpRight.svg" alt="Ícone de Seta" />
           </a>
 
           <a
+            id="gmail-footer-id"
             href="mailto:emagalhaes66@gmail.com"
-            class="contacts"
+            class="contacts gmail common-footer"
             target="_blank"
           >
             <div class="space-contacts">
-              <img
-                src="assets/icons/EnvelopeSimple.svg"
-                alt="Ícone de E-mail"
-              />
+              <span class="gmail-footer"></span>
               <p class="text-md gray-600 text-decoration">E-mail</p>
             </div>
             <img src="assets/icons/ArrowUpRight.svg" alt="Ícone de Seta" />

@@ -74,3 +74,49 @@
 .margin-auto {
   margin: auto;
 }
+
+.common {
+  transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out,
+    scale 0.3s ease-in-out;
+
+  &:hover {
+    scale: 1.1;
+  }
+}
+
+.common-footer {
+  transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out,
+    scale 0.3s ease-in-out;
+}
+
+.scale-red {
+  transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out,
+    scale 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 10px var(--principal-red);
+    scale: 1.05;
+  }
+}
+
+.scale-blue {
+  transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out,
+    scale 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 10px var(--principal-blue);
+    scale: 1.05;
+  }
+}
+
+.scale-yellow {
+  transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out,
+    scale 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 10px var(--principal-yellow);
+    scale: 1.05;
+  }
+}
+
+
