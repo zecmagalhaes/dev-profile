@@ -51,15 +51,16 @@
 
 .insta-footer {
   background-image: url(../assets/icons/InstagramLogo.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   width: 28px;
   height: 28px;
   transition: background-image 0.4s ease-in-out, scale ease-in 0.4s;
 }
 
 #insta-footer-id {
+  &:hover p {
+    color: #bc1888;
+  }
+
   &:hover {
     .insta-footer {
       background-image: url(../assets/icons/InstagramGradient.svg);
@@ -72,20 +73,23 @@
     box-shadow: -10px 0 10px #0077b5, -5px 0 10px #0088cc, 0 0 10px #0099e0,
       5px 0 10px #00aaff, 10px 0 10px #add8e6;
     scale: 1.02;
+
+    color: #0077B5;
   }
 }
 
 .linkedin-footer {
   background-image: url(../assets/icons/LinkedinLogo.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   width: 28px;
   height: 28px;
-  transition: background-image 0.4s ease-in-out, scale ease-in 0.4s;
+  transition: background-image 0.3s ease-in-out, color 0.3s ease-in-out scale ease-in 0.3s;
 }
 
 #linkedin-footer-id {
+  &:hover p {
+    color: #00aaff;
+  }
+
   &:hover {
     .linkedin-footer {
       background-image: url(../assets/icons/LinkedinLogoColor.svg);
@@ -103,15 +107,16 @@
 
 .github-footer-colored {
   background-image: url(../assets/icons/GithubLogo.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   width: 28px;
   height: 28px;
   transition: background-image 0.4s ease-in-out, scale ease-in 0.4s;
 }
 
 #github-footer-id {
+  &:hover p {
+    color: #6f42c1;
+  }
+
   &:hover {
     .github-footer-colored {
       background-image: url(../assets/icons/GithubLogoColored.svg);
@@ -129,15 +134,16 @@
 
 .gmail-footer {
   background-image: url(../assets/icons/EnvelopeSimple.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   width: 28px;
   height: 28px;
   transition: background-image 0.4s ease-in-out, scale ease-in 0.4s;
 }
 
 #gmail-footer-id {
+  &:hover p {
+    color: #ea4335;
+  }
+
   &:hover {
     .gmail-footer {
       background-image: url(../assets/icons/EnvelopeSimpleColored.svg);
